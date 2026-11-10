@@ -40,7 +40,7 @@
 
   function go(host) {
     if (!host) return false;
-    var target = "https://" + host + "/login";
+    var target = "https://" + host + "/";
     document.getElementById("tip").innerHTML =
       '即将跳转到 <a href="' + target + '">' + host + "</a>";
     location.replace(target);
